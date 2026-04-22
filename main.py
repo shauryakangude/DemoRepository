@@ -1,5 +1,5 @@
-def table_fun(num)
-    for i in range(1, 11)
+def table_fun(num):
+    for i in range(1, 11):
         print(f"{num} * {i} = {num * i}")
-num = int(input("enter a number"))
+num = int(input("enter a number: "))
 table_fun(num)
